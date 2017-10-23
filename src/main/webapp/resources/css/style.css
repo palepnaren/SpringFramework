@@ -1,0 +1,57 @@
+@CHARSET "UTF-8";
+
+h2,h3{
+	text-align: center;
+}
+#list{
+	border: 1px solid red;
+	padding: 20px;
+	margin: 20px auto;
+}
+
+.error{
+	color: red;
+	font-size: 10px;
+	margin: 10px auto;
+	
+}
+ #form-table{
+  	margin: 10px auto;
+  	padding: 20px;
+ }
+ 
+ span#login-error{
+ 	color: red;
+ 	margin-left: 250px;
+ }
+ 
+ .footer{
+ 	font-family: sans-serif;
+ 	font-size: small;
+ 	color: gray;
+ 	text-align: center;
+ }
+ 
+ .header{
+ 	position: relative;
+ 	background-color: orange;
+ 	height: 50px;
+ 	text-align: center;
+ 	opacity: 0.85;
+ }
+ 
+ .body{
+ 	position: relative;
+ 	padding: 20px;
+ }
+ 
+ .header a.login{
+ 	position: absolute;
+ 	right: 20px;
+ 	top: 10px;
+ }
+ 
+ .header a#title{
+ 	color: white;
+ 	font-size: 30px;
+ }

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+       
+<tiles-definitions>
+	<definition name="app.base" template="/WEB-INF/templates/starter.jsp">
+		<put-attribute name="title" value="Apache Tiles!!!"></put-attribute>	
+		<put-attribute name="header" value="/WEB-INF/fragments/header.jsp"></put-attribute>
+		<put-attribute name="body" value="/WEB-INF/fragments/body.jsp"></put-attribute>
+		<put-attribute name="footer" value="/WEB-INF/fragments/footer.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="home" extends="app.base">
+		<put-attribute name="title" value="Apache Tiles!!!"></put-attribute>	
+		<put-attribute name="body" value="/WEB-INF/fragments/home.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="admin" extends="app.base">
+		<put-attribute name="title" value="Admin!!"></put-attribute>	
+		<put-attribute name="body" value="/WEB-INF/fragments/admin.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="displaydata" extends="app.base">
+		<put-attribute name="title" value="Display List"></put-attribute>	
+		<put-attribute name="body" value="/WEB-INF/fragments/displaydata.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="create" extends="app.base">
+		<put-attribute name="title" value="Create Entry"></put-attribute>	
+		<put-attribute name="body" value="/WEB-INF/fragments/create.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="register" extends="app.base">
+		<put-attribute name="title" value="Register"></put-attribute>	
+		<put-attribute name="body" value="/WEB-INF/fragments/register.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="login" extends="app.base">
+		<put-attribute name="title" value="Login Page"></put-attribute>	
+		<put-attribute name="body" value="/WEB-INF/fragments/login.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="logout" extends="app.base">
+		<put-attribute name="title" value="Logout Page"></put-attribute>	
+		<put-attribute name="body" value="/WEB-INF/fragments/logout.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="saved" extends="app.base">
+		<put-attribute name="title" value="Saved"></put-attribute>	
+		<put-attribute name="body" value="/WEB-INF/fragments/saved.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="accountcreated" extends="app.base">
+		<put-attribute name="title" value="Created"></put-attribute>	
+		<put-attribute name="body" value="/WEB-INF/fragments/accountcreated.jsp"></put-attribute>
+	</definition>
+	
+</tiles-definitions>
